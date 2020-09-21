@@ -1,0 +1,105 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container {
+    width: 350px;
+    height: 730px;
+    border: 15px solid #465365;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+div.slant-top {
+    width: 450px;
+    height: 250px;
+    background: linear-gradient(to right, #f9ae61, #f8665c);
+    margin-top: -150px;
+    margin-left: -70px;
+    transform: rotate(45deg);
+}
+
+span.label {
+    font-size: 2em;
+    font-weight: bold;
+    color: #465365;
+}
+
+input {
+    height: 60px;
+    border: none;
+    padding-left: 2em;
+}
+.top-right {
+    box-shadow: 0px -5px 20px 0px rgba(0,0,0,0.05);
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    border-top-right-radius: 100px;
+}
+
+svg.form-icon {
+    top: 20px;
+    left: 5px;
+    color: #cbd1da;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+::placeholder {
+    color: #cbd1da;
+    font-weight: bold;
+}
+
+svg.login-icon {
+    width: 2em;
+    height: 2em;
+    color: white;
+}
+
+div.login-btn {
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to right, #17cbc9, #23e9a3);
+    border-radius: 50%;
+    right: -20px;
+    top: 27px;
+    box-shadow: 0px 8px 15px 0px rgba(35,233,163,0.5);
+}
+
+.bottom-right {
+    border-bottom-right-radius: 100px;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.05);
+}
+
+button.forgot {
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+    font-weight: bold;
+    color: #cbd1da;
+    text-decoration: underline;
+}
+
+button.register {
+    border: none;
+    background-color: transparent;
+    color: #dd8a78;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.05);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+div.slant-bottom {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to right, #0de6fe, #4facff);
+    margin-left: -30px;
+    margin-top: 120px;
+    transform: rotate(45deg);
+}

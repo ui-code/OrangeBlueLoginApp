@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container m-0 p-0">
+        <div class="flex-row">
+            <div class="slant-top"></div>
+        </div>
+
+        <div class="flex-row pb-3 pt-5 ml-3 mb-5">
+            <span class="label">Login</span>
+        </div>
+
+        <div class="flex-row">
+            <div class="col-11 d-flex flex-column position-relative">
+                <div class="position-relative">
+                    <svg  
+                    viewBox="0 0 16 16" 
+                    class="bi bi-person form-icon position-absolute" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M13 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM3.022 13h9.956a.274.274 0 0 0 .014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 0 0 .022.004zm9.974.056v-.002.002zM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                      </svg>
+                    <input type="text" class="w-100 top-right" placeholder="Email">
+                </div>
+                <div class="login-btn d-flex flex-row justify-content-center align-items-center position-absolute">
+                    <svg 
+                    viewBox="0 0 16 16" 
+                    class="bi bi-arrow-right-short login-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"/>
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"/>
+                      </svg>
+                </div>
+                <div class="flex-row position-relative">
+                    <svg 
+                    viewBox="0 0 16 16" 
+                    class="bi bi-lock form-icon position-absolute" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M11.5 8h-7a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1zm-7-1a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-7zm0-3a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"/>
+                      </svg>
+                    <input type="password" class="w-100 bottom-right"
+                    placeholder="Password">
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-row d-flex justify-content-end align-items-center mt-4 pr-3"
+        >
+            <button class="forgot">Forgot?</button>
+        </div>
+
+        <div class="flex-row mt-5">
+            <button class="register px-4 py-3">Register</button>
+        </div>
+
+        <div class="flex-row">
+            <div class="slant-bottom"></div>
+        </div>
+    </div>
+</body>
+</html>
